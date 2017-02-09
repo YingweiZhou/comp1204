@@ -1,0 +1,15 @@
+hello this is vim.
+this is line one.
+this is line two.
+:wq save and quit
+:q  quit with a warning
+:q! quit without a warning
+: 10,25 w temp  write lines 10 through 25 into file named temp. 
+:f move cursor to the begin last line
+ZZ works same as :wq
+
+yy yank(copy) current line.
+yw yank from cursor to end of current word
+p paste below cursor
+dd cut the whole line for paste or delete it if didn't paste.
+ctrl+: to select which one to paste.
